@@ -10,6 +10,8 @@ import Resume from './resume';
 
 const Main = () => (
   <Switch>
+    {/* Setting this to /react makes it work on localhost:3000/react with repo name "react" */}
+    {/* TODO: Make this work on Github pages */}
     <Route exact path="/" component={LandingPage} />
     <Route path="/aboutme" component={AboutMe} />
     <Route path="/contact" component={Contact} />
